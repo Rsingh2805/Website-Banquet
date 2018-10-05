@@ -1,0 +1,33 @@
+.bg {
+    /* The image used */
+    background-image: url("../images/about_top.jpg");
+
+    /* Full height */
+    height: 85%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center-large{
+	color: #ffffff;
+	font-size: 80px;
+	font-weight: bold;
+	font-family: 'Abel';
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+body, html{
+	height: 100%;
+}
+
+.about-text{
+	align-items: center;
+
+}

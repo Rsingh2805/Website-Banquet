@@ -1,0 +1,94 @@
+body{
+  /* background:#192226; */
+  background-image: url('../images/texture.jpg');
+}
+
+ .navbar-inverse{
+  padding-top: 25px;
+  height: 100px;
+  background:#222B31;
+  border-bottom:4px solid #EE445F;
+}
+.navbar-inverse .container{
+
+}
+
+nav .navbar-brand{
+  font:12px Lato;
+  text-transform:uppercase;
+  color:#FFF;
+  letter-spacing:2px;
+  margin-top:2px;
+}
+
+nav .nav{
+  margin-bottom:0px;
+}
+  nav a{
+    font:500 11px Lato;
+    letter-spacing:2px;
+    padding:16px;
+    color:#a3bfc6;
+    text-transform:uppercase;
+    position:relative;
+    z-index:1000;
+  }
+  nav a:hover{
+    color:#FFF;
+  }
+  nav li{
+    position:relative;
+  }
+
+.navbar-inverse .navbar-toggle{
+  border:none;
+}
+
+nav .navbar-collapse{
+  box-shadow:none;
+  border:none;
+}
+
+.navbar-inverse .navbar-toggle:hover{
+  background:transparent;
+}
+
+.navbar-inverse .navbar-toggle:focus{
+  background:transparent;
+}
+
+.navbar-inverse .navbar-toggle:active{
+  background:transparent;
+}
+
+nav .icon-bar{
+  background:#a3bfc6;
+}
+
+nav .hover{
+  display:block;
+  position:absolute;
+  width:0%;
+  height:100%;
+  top:0px;
+  left:0px;
+  background:#EE445F;
+  z-index:0;
+  opacity:0;
+}
+
+@media (max-width: 767px) {
+  nav .nav{
+    padding-bottom:20px;
+  }
+    nav a{
+      padding:12px;
+    }
+  
+}
+
+@media (max-width: 480px) {
+  nav .nav{
+    padding-bottom:20px;
+  }
+}

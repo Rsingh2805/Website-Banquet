@@ -1,0 +1,17 @@
+span.home-heading{
+	font-family: 'Alex Brush';
+	color: #5d0917;
+	font-size: 40px;
+	margin: auto;
+	display: table;
+}
+
+.text-container{
+	margin: auto;
+	display: table;
+	padding: 0px 40px;
+	font-family: Palatino;
+	line-height: 24px;
+	font-size: 12px;
+}
+
