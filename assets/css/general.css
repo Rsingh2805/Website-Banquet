@@ -1,3 +1,7 @@
 *{
 	border-radius: 10px;
+},
+
+#wedContent{
+	overflow-y: scroll;
 }

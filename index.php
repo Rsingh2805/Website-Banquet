@@ -20,6 +20,9 @@ require_once INCLUDES."variables.php";
 	<link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
 
+	<!-- Shufflejs includes -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Shuffle/5.2.0/shuffle.min.js"></script>
+
 	<!-- font awesome includes -->
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
@@ -33,7 +36,7 @@ require_once INCLUDES."variables.php";
 	<?php include INCLUDES."header.php"; ?>
 	<script src="<?php echo JS_R ?>header.js"></script>
 
-	<section id="wedContent" style="margin-top: 100px; height: 100%"></section>
+	<section id="wedContent" style="margin-top: 100px"></section>
 
 
 	<?php include INCLUDES."footer.php"; ?>
