@@ -1,14 +1,14 @@
 .bg {
-    /* The image used */
-    background-image: url("../images/about_top.jpg");
+	/* The image used */
+	background-image: url("../images/about_top.jpg");
 
-    /* Full height */
-    height: 85%; 
+	/* Full height */
+	height: 85%; 
 
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .center-large{
@@ -23,11 +23,53 @@
 	height: 100%;
 }
 
-body, html{
-	height: 100%;
+.about-text{
+	line-height: 160%;
+	padding: 30px 250px;
+
 }
 
-.about-text{
-	align-items: center;
+.strike {
+	display: block;
+	text-align: center;
+	overflow: hidden;
+	white-space: nowrap; 
+	font-family: 'Alex Brush';
+	font-size: 30px;
+}
 
+.strike > span {
+	position: relative;
+	display: inline-block;
+}
+
+.strike > span:before,
+.strike > span:after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	width: 9999px;
+	height: 2px;
+	background: red;
+}
+
+.strike > span:before {
+	right: 100%;
+	margin-right: 15px;
+}
+
+.strike > span:after {
+	left: 100%;
+	margin-left: 15px;
+}
+
+.about-item{
+	padding: 70px;
+}
+
+.image{
+	height: 250px;
+	background-size:     cover;                      /* <------ */
+	background-repeat:   no-repeat;
+	background-position: center center;    
 }

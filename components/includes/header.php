@@ -13,7 +13,7 @@
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav">
       <li><a onclick="loadPage('ABOUT')">About</a><span class="hover"></span></li>
-      <li><a href="#">Gallery</a><span class="hover"></span></li>
+      <li><a  onclick="loadPage('GALLERY')">Gallery</a><span class="hover"></span></li>
       <li><a href="#">Services</a><span class="hover"></span></li>
       <li><a href="#">Packages</a><span class="hover"></span></li>
       <li><a href="#">Contact</a><span class="hover"></span></li>
