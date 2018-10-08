@@ -14,9 +14,9 @@
     <ul class="nav navbar-nav">
       <li><a onclick="loadPage('ABOUT')">About</a><span class="hover"></span></li>
       <li><a  onclick="loadPage('GALLERY')">Gallery</a><span class="hover"></span></li>
-      <li><a href="#">Services</a><span class="hover"></span></li>
-      <li><a href="#">Packages</a><span class="hover"></span></li>
-      <li><a href="#">Contact</a><span class="hover"></span></li>
+      <li><a onclick="loadPage('SERVICES')">Services</a><span class="hover"></span></li>
+      <li><a onclick="loadPage('PACKAGES')">Packages</a><span class="hover"></span></li>
+      <li><a onclick="loadPage('CONTACT')">Contact</a><span class="hover"></span></li>
     </ul>
   </div>
   </div>

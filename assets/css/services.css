@@ -1,0 +1,29 @@
+.service-header{
+	padding: 20px 0px;
+	line-height: 200%;
+}
+
+.service-header h1{
+	font-family: 'Ubuntu';
+	color: #800000;
+}
+
+.nav-pills li.active a{
+	background-color: #EE445F !important;
+}
+
+.nav-pills li a{
+	font-weight: bold;
+	text-transform: uppercase;
+	color:  #101010;
+}
+
+.nav-pills li a:hover{
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.img-back{
+	background-size: cover;                      /* <------ */
+	background-repeat: no-repeat;
+	background-position: center center; 
+}
