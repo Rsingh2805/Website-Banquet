@@ -21,7 +21,7 @@ require_once INCLUDES."variables.php";
 	<link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
 
 	<!-- Shufflejs includes -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Shuffle/5.2.0/shuffle.min.js"></script>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Shuffle/5.2.0/shuffle.min.js"></script> -->
 
 	<!-- font awesome includes -->
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">

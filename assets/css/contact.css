@@ -1,0 +1,17 @@
+.stamp {
+	padding: 40px;
+	margin: 200px auto;
+	width: 750px;
+	height: 414px;
+	background: #fff no-repeat;
+	border: 12px dashed #1b1a19; }
+.stamp p {
+	color: #000;
+	margin: 10px 10px 40px 0;
+	font: 16px Georgia, "Times New Roman", Times, serif;
+}
+.stamp button{
+	border-radius: 500px;
+	font-size: 16px;
+	padding: 10px 25px;
+}
