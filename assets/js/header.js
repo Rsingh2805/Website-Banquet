@@ -1,4 +1,4 @@
-$( "li" ).hover(
+$( "li" ).not(".active").hover(
   function() {
       $(this).find("span").stop().animate({
       width:"100%",

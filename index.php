@@ -8,7 +8,8 @@ require_once INCLUDES."variables.php";
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title><?php echo $title; ?></title>
+	<title></title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
 
 	<!-- bootstrap includes -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -18,6 +19,7 @@ require_once INCLUDES."variables.php";
 	<!-- google font includes -->
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Cardo:100,300,400,700,900' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
 
 	<!-- Shufflejs includes -->
