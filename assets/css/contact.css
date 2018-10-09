@@ -1,17 +1,30 @@
-.stamp {
-	padding: 40px;
-	margin: 200px auto;
-	width: 750px;
-	height: 414px;
-	background: #fff no-repeat;
-	border: 12px dashed #1b1a19; }
-.stamp p {
-	color: #000;
-	margin: 10px 10px 40px 0;
-	font: 16px Georgia, "Times New Roman", Times, serif;
+.imageDiv{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-image: url('../images/contact.jpg');
+	height: 100%;
+	float: none;
+	display: table-cell;
 }
-.stamp button{
-	border-radius: 500px;
-	font-size: 16px;
-	padding: 10px 25px;
+
+.scream{
+	font-size: 48px;
+	font-family: 'Fjalla One';
+}
+
+.scream span{
+	font-size:  72px;
+	color:  #5d0917;
+}
+
+.contact-div{
+	display: table;
+}
+
+.contact-div .text{
+	font-family: 'Lato';
+	font-size:  16px;
+	padding-top: 60px;
+	padding-bottom: 30px;
 }

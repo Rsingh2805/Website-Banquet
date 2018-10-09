@@ -11,17 +11,17 @@
         <h3>My<span>Banquets</span></h3>
 
         <p class="footer-links">
-          <a href="#">Home</a>
+          <a  href="#" onclick="loadPage('HOME')">Home</a>
           ·
-          <a href="#">About</a>
+          <a href="#" onclick="loadPage('ABOUT')">About</a>
           ·
-          <a href="#">Gallery</a>
+          <a href="#" onclick="loadPage('GALLERY')">Gallery</a>
           ·
-          <a href="#">Services</a>
+          <a href="#" onclick="loadPage('SERVICES')">Services</a>
           ·
-          <a href="#">Packages</a>
+          <a href="#" onclick="loadPage('PACKAGES')">Packages</a>
           .
-          <a href="#">Contact</a>
+          <a href="#" onclick="loadPage('CONTACT')">Contact</a>
 
         </p>
 
